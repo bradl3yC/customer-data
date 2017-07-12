@@ -36,4 +36,38 @@
   border-bottom: solid 2px #9bd2b4;
   width: auto;
   align-self: center;
+  margin-bottom: 1px;
+}
+
+.customer-email {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  font-weight: lighter;
+  color: #ccc;
+}
+
+.customer-strt1 {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: #ccc;
+}
+
+.customer-strt2 {
+  margin: 0;
+  text-transform: capitalize;
+  color: #ccc;
+}
+
+.customer-phone {
+  margin: 0.5em;
+  color: #ccc;
+}
+
+.customer-social {
+  color: transparent;
+  text-shadow: 0 0 10px #9bd2b4;
+}
+
+.customer-social:hover {
+  color: #9bd2b4;
 }

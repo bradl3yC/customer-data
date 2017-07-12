@@ -15,8 +15,11 @@ customers.results.forEach(function(customer){
   customerEmail.innerHTML = customer.email
   customerEmail.className = `customer-email`
   customerStrtAddress1.innerHTML = customer.location.street
+  customerStrtAddress1.className = `customer-strt1`
   customerStrtAddress2.innerHTML = `${customer.location.city}, ${customer.location.state} ${customer.location.postcode}`
+  customerStrtAddress2.className = `customer-strt2`
   customerPhoneNum.innerHTML = customer.phone
+  customerPhoneNum.className = `customer-phone`
   customerSocial.innerHTML = customer.id.value
   customerSocial.className = `customer-social`
 
